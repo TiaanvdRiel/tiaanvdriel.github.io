@@ -1,0 +1,2116 @@
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono:wght@700&family=JetBrains+Mono&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.cursor {
+  width: 12px;
+  height: 12px;
+  background: #0216e1;
+  position: absolute;
+  overflow: visible;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  pointer-events: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  transition-property: background, transform;
+  transition-property: background, transform, -webkit-transform;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.linkGrow {
+  -webkit-transform: scale(10.5);
+          transform: scale(10.5);
+  background: black;
+}
+
+.Desktop {
+  position: absolute;
+  width: 1920px;
+  height: 8968px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.GrayEllipse1 {
+  fill: #f4f8fb;
+  overflow: visible;
+  position: absolute;
+  width: 2889px;
+  height: 1245.068px;
+  left: -484px;
+  top: 8709.932px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.GrayBackground {
+  fill: #f4f8fb;
+  overflow: visible;
+  position: absolute;
+  width: 1920px;
+  height: 4303px;
+  left: 0px;
+  top: 0px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.WhieEllipse1 {
+  fill: white;
+  overflow: visible;
+  position: absolute;
+  width: 2889px;
+  height: 1124px;
+  left: -203px;
+  top: 1173px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------ ANIMATIONS --------------------------------------------
+-------------------------------------------------------------------------------------------------- */
+.AllLists:hover .cursor {
+  -webkit-transform: scale(5.5);
+          transform: scale(5.5);
+  background: #0216e1;
+}
+
+.change {
+  background: red;
+}
+
+/* ------------------ NAV ANIMATIONS ------------------ */
+#Nav_Home :hover {
+  color: white;
+  z-index: -1;
+}
+
+#Nav_About :hover {
+  color: white;
+  z-index: -1;
+}
+
+#Nav_Education :hover {
+  color: white;
+  z-index: -1;
+}
+
+#Nav_Skills :hover {
+  color: white;
+  z-index: -1;
+}
+
+#Nav_MyStory :hover {
+  color: white;
+  z-index: -1;
+}
+
+#Nav_Contact :hover {
+  color: white;
+  z-index: -1;
+}
+
+#Nav_Achievements :hover {
+  color: white;
+  z-index: -1;
+}
+
+/* -------------------- BOTTOM SVGs ----------------------- */
+#FacebookSVG:hover {
+  stroke: white;
+  z-index: -1;
+}
+
+#GitHubSVG:hover {
+  stroke: white;
+  z-index: -1;
+}
+
+#InstagramSVG:hover #Path_4 {
+  stroke: white;
+  z-index: 200;
+}
+
+#InstagramSVG:hover #Path_5 {
+  stroke: white;
+  z-index: 200;
+}
+
+#InstagramSVG:hover #Path_6 {
+  stroke: white;
+  z-index: 200;
+}
+
+/* ------------------ GET IN TOUCH ANIMATIONS ---------------------------- */
+.GetInTouch:hover .GetInTouch_Button {
+  fill: #0216e1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  position: relative;
+}
+
+.GetInTouch:hover .GetInTouch_Text {
+  color: white;
+  z-index: 200;
+}
+
+/* ------------------ DOWNLOAD CV ANIMATIONS ---------------------------- */
+.DownloadCV:hover .DownloadCV_Button {
+  fill: #0216e1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  position: relative;
+}
+
+.DownloadCV:hover .DownloadCV_Text {
+  color: white;
+  z-index: 200;
+}
+
+/* ------------------ ACHIEVEMENTS ANIMATIONS ---------------------------- */
+.Block1:hover .Academic_Block {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block1:hover .Academic_Par {
+  z-index: -1;
+}
+
+.Block2:hover .LeadershipBlock_2 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block2:hover .Leadership_Par2 {
+  z-index: -1;
+}
+
+.Block3:hover .AwardsBlock_3 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block3:hover .Awards_Par {
+  z-index: -1;
+}
+
+/* ------------------ MY STORY ANIMATIONS ---------------------------- */
+.Block4:hover .StoryBlock_2007 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block4:hover .StoryText_2007 {
+  z-index: -1;
+}
+
+.Block5:hover .StoryBlock_2016 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block5:hover .StoryText_2016 {
+  z-index: -1;
+}
+
+.Block6:hover .StoryBlock_2017 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block6:hover .StoryText_2017 {
+  z-index: -1;
+}
+
+.Block7:hover .StoryBlock_2018 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block7:hover .StoryText_2018 {
+  z-index: -1;
+}
+
+.Block8:hover .StoryBlock_2019 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block8:hover .StoryText_2019 {
+  z-index: -1;
+}
+
+.Block9:hover .StoryBlock_2020 {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 1.5rem;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Block9:hover .StoryText_2020 {
+  z-index: -1;
+}
+
+/* -----------------------------------------------------------------------------------------------
+--------------------------------------------- NAV BAR --------------------------------------------
+-------------------------------------------------------------------------------------------------- */
+#Nav_Home {
+  left: 615px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 39px;
+  height: 100px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+#Nav_About {
+  left: 703px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 49px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+#Nav_Skills {
+  left: 790px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 59px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+#Nav_Education {
+  left: 890px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 87px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+#Nav_Achievements {
+  left: 1007px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 59px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+#Nav_MyStory {
+  left: 1148px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 78px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+#Nav_Contact {
+  left: 1260px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 68px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------- HOME PAGE --------------------------------------------
+-------------------------------------------------------------------------------------------------- */
+/* ------------------------------- Welcome Text ------------------------------------ */
+#WelcomeText {
+  left: 596px;
+  top: 448px;
+  position: absolute;
+  overflow: visible;
+  width: 1002px;
+  height: 200px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  color: black;
+}
+
+.typing {
+  left: 596px;
+  top: 545px;
+  position: absolute;
+  overflow: visible;
+  width: 1002px;
+  height: 200px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  margin-top: 10px;
+  border-right: 5px solid black;
+  -webkit-animation: blink 1s infinite ease;
+          animation: blink 1s infinite ease;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* --------------------------- GET IN TOUCCH BUTTON --------------------------------- */
+.GetInTouch {
+  position: absolute;
+  width: 147px;
+  height: 44px;
+  left: 887px;
+  top: 677px;
+  overflow: visible;
+}
+
+.GetInTouch_Button {
+  fill: #f4f8fb;
+  -webkit-filter: drop-shadow(8px 8px 12px rgba(0, 0, 0, 0.212));
+          filter: drop-shadow(8px 8px 12px rgba(0, 0, 0, 0.212));
+  position: absolute;
+  overflow: visible;
+  width: 147px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  transition-property: background, transform;
+  transition-property: background, transform, -webkit-transform;
+}
+
+.GetInTouch_Text {
+  left: 41px;
+  top: 12px;
+  position: absolute;
+  overflow: visible;
+  width: 67px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #9a9b9d;
+  text-transform: capitalize;
+}
+
+/*---------------------- CIRCLES ------------------------ */
+.Circle1 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  overflow: visible;
+  position: absolute;
+  fill: #59ffe7;
+  width: 1244.227px;
+  height: 1175.84px;
+  left: -528px;
+  top: -305px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Circle2 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  position: absolute;
+  overflow: visible;
+  width: 838px;
+  height: 806px;
+  left: 1485px;
+  top: -348px;
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------- ABOUT PAGE -------------------------------------------
+-------------------------------------------------------------------------------------------------- */
+.About_Head {
+  left: 1010px;
+  top: 1445px;
+  position: absolute;
+  overflow: visible;
+  width: 289px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+
+#About_Par {
+  left: 1003px;
+  top: 1544px;
+  position: absolute;
+  overflow: visible;
+  width: 676px;
+  height: 318px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #707070;
+}
+
+/*---------------------- DOWNLOAD CV BUTTON ------------------- */
+.DownloadCV {
+  position: absolute;
+  width: 147px;
+  height: 44px;
+  left: 1274px;
+  top: 1884.5px;
+  overflow: visible;
+}
+
+.DownloadCV_Button {
+  fill: #f4f8fb;
+  -webkit-filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 147px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  transition-property: background, transform;
+  transition-property: background, transform, -webkit-transform;
+}
+
+.DownloadCV_Text {
+  left: 28px;
+  top: 14px;
+  position: absolute;
+  overflow: visible;
+  width: 93px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #9a9b9d;
+  text-transform: capitalize;
+}
+
+/*------------------------------ CIRCLES ---------------------------*/
+.Circle3 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 463.108px;
+  height: 459.907px;
+  left: 204.392px;
+  top: 1446.536px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Circle4 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  overflow: visible;
+  position: absolute;
+  width: 473px;
+  height: 451px;
+  left: 108px;
+  top: 1509px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------ SKILLS PAGE -------------------------------------------
+-------------------------------------------------------------------------------------------------- */
+#Skills_Head {
+  left: 291px;
+  top: 2428.5px;
+  position: absolute;
+  overflow: visible;
+  width: 325px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+
+/* ----------------------- SKILLS PARAGRAPHS ------------------ */
+#Skills_SubHead1 {
+  left: 291px;
+  top: 2541.5px;
+  position: absolute;
+  overflow: hidden;
+  width: 600px;
+  height: 47px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #707070;
+}
+
+#Skills_SubPar1 {
+  left: 295px;
+  top: 2574.5px;
+  position: absolute;
+  overflow: hidden;
+  width: 650px;
+  height: 124px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #707070;
+}
+
+#Skills_SubPar2 {
+  left: 295px;
+  top: 2776.5px;
+  position: absolute;
+  overflow: hidden;
+  width: 121px;
+  height: 122px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+#Skills_SubPar3 {
+  left: 537px;
+  top: 2776.5px;
+  position: absolute;
+  overflow: hidden;
+  width: 156px;
+  height: 122px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+#Skills_SubHead2 {
+  left: 295px;
+  top: 2730.5px;
+  position: absolute;
+  overflow: visible;
+  width: 517px;
+  height: 51px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #707070;
+}
+
+/* ------------------- CIRCLES ------------------- */
+.Circle5 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 704.739px;
+  height: 674.938px;
+  left: 1395.261px;
+  top: 2370.536px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Circle6 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  position: absolute;
+  overflow: visible;
+  width: 438px;
+  height: 423px;
+  left: 1776px;
+  top: 2753px;
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------ EDUCTION PAGE -----------------------------------------
+-------------------------------------------------------------------------------------------------- */
+/* ----------------- EDUCATION HEADING ---------------- */
+#Education_Head {
+  left: 1183px;
+  top: 3243.5px;
+  position: absolute;
+  overflow: visible;
+  width: 433px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+
+/* ----------------- EDUCATION PARAGRAPHS -------------- */
+#Edu_SubHead1 {
+  left: 1183px;
+  top: 3346.5px;
+  position: absolute;
+  overflow: hidden;
+  width: 450px;
+  height: 46px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #707070;
+}
+
+#Edu_SubHead2 {
+  left: 1183px;
+  top: 3517.5px;
+  position: absolute;
+  overflow: hidden;
+  width: 450px;
+  height: 26px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #707070;
+}
+
+#Edu_SubPar1 {
+  left: 1183px;
+  top: 3382.5px;
+  position: absolute;
+  overflow: visible;
+  width: 611px;
+  height: 106px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+#Edu_SubPar2 {
+  left: 1183px;
+  top: 3555.5px;
+  position: absolute;
+  overflow: visible;
+  width: 611px;
+  height: 153px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+/* ------------------------------ CIRCLES ------------------- */
+.Circle7 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 1258.239px;
+  height: 1000.36px;
+  left: -828.739px;
+  top: 3032.109px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Cicrle8 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  overflow: visible;
+  position: absolute;
+  width: 483px;
+  height: 454px;
+  -webkit-transform: matrix(1, 0, 0, 1, -184.3964, 3600.9911) rotate(-1deg);
+          transform: matrix(1, 0, 0, 1, -184.3964, 3600.9911) rotate(-1deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+/* -----------------------------------------------------------------------------------------------
+--------------------------------------- ACHIEVEMENTS PAGE ----------------------------------------
+-------------------------------------------------------------------------------------------------- */
+#Achiev_Head {
+  left: 722px;
+  top: 4205.5px;
+  position: absolute;
+  overflow: visible;
+  width: 496px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  color: black;
+}
+
+#Academic_SubHead {
+  left: 386px;
+  top: 4392px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 38px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+#Leadership_SubHead {
+  left: 874.5px;
+  top: 4392px;
+  position: absolute;
+  overflow: visible;
+  width: 153px;
+  height: 38px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+#Awards_SubHead {
+  left: 1402px;
+  top: 4392px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 38px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+#AtomSVG {
+  position: absolute;
+  width: 45.711px;
+  height: 47.513px;
+  left: 419px;
+  top: 4335.987px;
+  overflow: visible;
+}
+
+#AwardsSVG {
+  position: absolute;
+  width: 58.126px;
+  height: 51.732px;
+  left: 1421.203px;
+  top: 4334.874px;
+  overflow: visible;
+}
+
+#LeadershipSVG {
+  position: absolute;
+  width: 39.61px;
+  height: 63.503px;
+  left: 914.25px;
+  top: 4323.497px;
+  overflow: visible;
+}
+
+/* ----------- ACHIEVEMENTS ----------- */
+.Academic_Block {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 439px;
+  height: 650px;
+  left: 222px;
+  top: 4442px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#Academic_Par {
+  left: 267px;
+  top: 4484.5px;
+  position: absolute;
+  overflow: visible;
+  width: 350px;
+  height: 666px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #707070;
+}
+
+.LeadershipBlock_2 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  overflow: visible;
+  position: absolute;
+  width: 439px;
+  height: 650px;
+  left: 731px;
+  top: 4442px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#Leadership_Par2 {
+  left: 790.5px;
+  top: 4484.5px;
+  position: absolute;
+  overflow: visible;
+  width: 341px;
+  height: 666px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #707070;
+}
+
+.AwardsBlock_3 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 457px;
+  height: 670px;
+  left: 1238px;
+  top: 4442px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#Awards_Par {
+  left: 1290px;
+  top: 4484.5px;
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 666px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #707070;
+}
+
+/* ----------- ALL OF THE SVG PATHS  (4-6 Are for IG) ----------- */
+#Path_4 {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_4 {
+  overflow: visible;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  -webkit-transform: translate(-2.74px, -2.74px) matrix(1, 0, 0, 1, 3, 3) rotate(1deg);
+          transform: translate(-2.74px, -2.74px) matrix(1, 0, 0, 1, 3, 3) rotate(1deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+#Path_5 {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_5 {
+  overflow: visible;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: translate(-2.74px, -2.74px) matrix(1, 0, 0, 1, 12.0659, 11.936) rotate(1deg);
+          transform: translate(-2.74px, -2.74px) matrix(1, 0, 0, 1, 12.0659, 11.936) rotate(1deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+#Path_6 {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_6 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  -webkit-transform: translate(-2.74px, -2.74px) matrix(1, 0, 0, 1, 26.3927, 9.8952) rotate(1deg);
+          transform: translate(-2.74px, -2.74px) matrix(1, 0, 0, 1, 26.3927, 9.8952) rotate(1deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+/* --------- THESE ARE FOR THE ACHIEVEMENT ONES -------------- */
+/* All of these Path elements have to do with the SVGs */
+#Path_8 {
+  fill: black;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_8 {
+  overflow: visible;
+  position: absolute;
+  width: 12.403px;
+  height: 12.026px;
+  left: 17.231px;
+  top: 18.243px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_9 {
+  fill: black;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_9 {
+  overflow: visible;
+  position: absolute;
+  width: 3.693px;
+  height: 4.541px;
+  left: 23.456px;
+  top: 23.055px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_10 {
+  fill: black;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_10 {
+  overflow: visible;
+  position: absolute;
+  width: 46.871px;
+  height: 48.513px;
+  left: 0px;
+  top: 0px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_11 {
+  fill: black;
+}
+
+.Path_11 {
+  overflow: visible;
+  position: absolute;
+  width: 10.221px;
+  height: 10.791px;
+  left: 39.719px;
+  top: 27.766px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_12 {
+  fill: black;
+}
+
+.Path_12 {
+  overflow: visible;
+  position: absolute;
+  width: 16.241px;
+  height: 1.795px;
+  left: 20.942px;
+  top: 11.125px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_13 {
+  fill: black;
+}
+
+.Path_13 {
+  overflow: visible;
+  position: absolute;
+  width: 8.972px;
+  height: 1.795px;
+  left: 24.577px;
+  top: 28.441px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_14 {
+  fill: black;
+}
+
+.Path_14 {
+  overflow: visible;
+  position: absolute;
+  width: 30.861px;
+  height: 1.796px;
+  left: 13.633px;
+  top: 14.582px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_15 {
+  fill: black;
+}
+
+.Path_15 {
+  overflow: visible;
+  position: absolute;
+  width: 30.861px;
+  height: 1.795px;
+  left: 13.633px;
+  top: 18.038px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_16 {
+  fill: black;
+}
+
+.Path_16 {
+  overflow: visible;
+  position: absolute;
+  width: 30.861px;
+  height: 1.796px;
+  left: 13.633px;
+  top: 21.495px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_17 {
+  fill: black;
+}
+
+.Path_17 {
+  overflow: visible;
+  position: absolute;
+  width: 58.126px;
+  height: 51.731px;
+  left: 0px;
+  top: 0px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_23 {
+  fill: black;
+}
+
+.Path_23 {
+  overflow: visible;
+  position: absolute;
+  width: 39.61px;
+  height: 63.503px;
+  left: 0px;
+  top: 0px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Circle13 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 589.007px;
+  height: 578.842px;
+  left: 1431.993px;
+  top: 7135px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Circle12 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  width: 442px;
+  height: 436px;
+  position: absolute;
+  overflow: visible;
+  -webkit-transform: matrix(1, 0, 0, 1, 1689.3475, 6943.6737) rotate(3deg);
+          transform: matrix(1, 0, 0, 1, 1689.3475, 6943.6737) rotate(3deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.Circle15 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  width: 1038px;
+  height: 791px;
+  position: absolute;
+  overflow: visible;
+  -webkit-transform: matrix(1, 0, 0, 1, -797.3345, 8010.2825) rotate(3deg);
+          transform: matrix(1, 0, 0, 1, -797.3345, 8010.2825) rotate(3deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.Circle14 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 1220.511px;
+  height: 1166.65px;
+  left: -900.368px;
+  top: 7402.191px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Circle11 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 1417.161px;
+  height: 1421.842px;
+  left: 1470.503px;
+  top: 5421px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.WhiteEllipse2 {
+  fill: white;
+  overflow: visible;
+  position: absolute;
+  width: 2889px;
+  height: 1245.068px;
+  left: -484px;
+  top: 4029.932px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#MyStory_Head {
+  left: 259px;
+  top: 5525px;
+  position: absolute;
+  overflow: visible;
+  width: 361px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+
+#GitHubSVG {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.GitHubSVG {
+  overflow: visible;
+  position: absolute;
+  width: 33.488px;
+  height: 33.857px;
+  left: 887.233px;
+  top: 8814.677px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#InstagramSVG {
+  position: absolute;
+  width: 30.519px;
+  height: 30.519px;
+  left: 944.48px;
+  top: 8815.24px;
+  overflow: visible;
+}
+
+#FacebookSVG {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.FacebookSVG {
+  overflow: visible;
+  position: absolute;
+  width: 19.5px;
+  height: 33px;
+  left: 1001.985px;
+  top: 8814.5px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#EmailAdress {
+  left: 840px;
+  top: 8771px;
+  position: absolute;
+  overflow: visible;
+  width: 241px;
+  white-space: nowrap;
+  text-align: right;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+#CopyrightText {
+  left: 866px;
+  top: 8878px;
+  position: absolute;
+  overflow: visible;
+  width: 190px;
+  height: 46px;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #707070;
+}
+
+.Circle10 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #736eff;
+  overflow: visible;
+  position: absolute;
+  width: 615px;
+  height: 559px;
+  -webkit-transform: matrix(1, 0, 0, 1, -112.2822, 4722.5814) rotate(3deg);
+          transform: matrix(1, 0, 0, 1, -112.2822, 4722.5814) rotate(3deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+.Cirlce9 {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  fill: #59ffe7;
+  overflow: visible;
+  position: absolute;
+  width: 783.192px;
+  height: 742.244px;
+  left: 150.094px;
+  top: 4499.417px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/* ----------- MY STORY ----------- */
+.StoryBlock_2007 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 653px;
+  height: 227px;
+  left: 235px;
+  top: 5647px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#StoryText_2007 {
+  left: 269px;
+  top: 5678px;
+  position: absolute;
+  overflow: visible;
+  width: 592px;
+  height: 196px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+.StoryBlock_2016 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 663px;
+  height: 357px;
+  left: 1010px;
+  top: 6004px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#StoryText_2016 {
+  left: 1051px;
+  top: 6029px;
+  position: absolute;
+  overflow: hidden;
+  width: 592px;
+  height: 294px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+.StoryBlock_2017 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  overflow: visible;
+  position: absolute;
+  width: 653px;
+  height: 398.889px;
+  left: 235px;
+  top: 6520px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#StoryText_2017 {
+  left: 269px;
+  top: 6549px;
+  position: absolute;
+  overflow: visible;
+  width: 592px;
+  height: 331px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+.StoryBlock_2018 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 673px;
+  height: 512px;
+  left: 1010px;
+  top: 7019px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#StoryText_2018 {
+  left: 1051px;
+  top: 7043px;
+  position: absolute;
+  overflow: visible;
+  width: 597px;
+  height: 455px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+.StoryBlock_2019 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 653px;
+  height: 346px;
+  left: 235px;
+  top: 7654px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#StoryText_2019 {
+  left: 269px;
+  top: 7680px;
+  position: absolute;
+  overflow: visible;
+  width: 592px;
+  height: 285px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+.StoryBlock_2020 {
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 673px;
+  height: 381px;
+  left: 1015px;
+  top: 8185px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#StoryText_2020 {
+  left: 1051px;
+  top: 8210px;
+  position: absolute;
+  overflow: hidden;
+  width: 601px;
+  height: 399px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------ IMAGE SLIDERS -----------------------------------------
+-------------------------------------------------------------------------------------------------- */
+/********************************************/
+/******************** 2016 ******************/
+/********************************************/
+.slider_2016 {
+  position: absolute;
+  overflow: visible;
+}
+
+.slides_2016 {
+  overflow: hidden;
+  position: absolute;
+  width: 532px;
+  height: 398px;
+  left: 323px;
+  top: 5985px;
+}
+
+.slides_2016 input {
+  display: none;
+}
+
+.slide_2016 {
+  width: 20%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.slide_2016 img {
+  width: 532px;
+  height: 398px;
+  border-radius: 1.1rem;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/* ----- CSS FOR MANUAL NAV ---------- */
+.navManual_2016 {
+  position: absolute;
+  overflow: visible;
+  width: 532px;
+  left: 323px;
+  top: 6390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.manBut_2016 {
+  border: 2px solid #707070;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.manBut_2016:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manBut_2016:hover {
+  border-color: #0216e1;
+  background: #0216e1;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+#radio1_2016:checked ~ .first {
+  margin-top: 0;
+}
+
+#radio2_2016:checked ~ .first {
+  margin-top: -401px;
+}
+
+#radio3_2016:checked ~ .first {
+  margin-top: -803px;
+}
+
+#radio4_2016:checked ~ .first {
+  margin-top: -1206px;
+}
+
+#radio5_2016:checked ~ .first {
+  margin-top: -1608px;
+}
+
+#radio6_2016:checked ~ .first {
+  margin-top: -2009px;
+}
+
+/********************************************/
+/******************** 2017 ******************/
+/********************************************/
+.slider_2017 {
+  position: absolute;
+  overflow: visible;
+}
+
+.slides_2017 {
+  overflow: hidden;
+  position: absolute;
+  width: 573px;
+  height: 387px;
+  left: 1065px;
+  top: 6537px;
+}
+
+.slides_2017 input {
+  display: none;
+}
+
+.slide_2017 {
+  width: 20%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.slide_2017 img {
+  width: 573px;
+  height: 387px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/* ----- CSS FOR MANUAL NAV ---------- */
+.navManual_2017 {
+  position: absolute;
+  overflow: visible;
+  width: 532px;
+  left: 1065px;
+  top: 6931px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.manBut_2017 {
+  border: 2px solid #707070;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.manBut_2017:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manBut_2017:hover {
+  border-color: #0216e1;
+  background: #0216e1;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+#radio1_2017:checked ~ .first {
+  margin-top: 0;
+}
+
+#radio2_2017:checked ~ .first {
+  margin-top: -387px;
+}
+
+#radio3_2017:checked ~ .first {
+  margin-top: -775px;
+}
+
+#radio4_2017:checked ~ .first {
+  margin-top: -1172px;
+}
+
+#radio5_2017:checked ~ .first {
+  margin-top: -1555px;
+}
+
+/********************************************/
+/******************** 2018 ******************/
+/********************************************/
+.slider_2018 {
+  position: absolute;
+  overflow: visible;
+}
+
+.slides_2018 {
+  overflow: hidden;
+  position: absolute;
+  width: 643px;
+  height: 375px;
+  left: 240px;
+  top: 7096px;
+}
+
+.slides_2018 input {
+  display: none;
+}
+
+.slide_2018 {
+  width: 20%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.slide_2018 img {
+  width: 643px;
+  height: 385px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/* ----- CSS FOR MANUAL NAV ---------- */
+.navManual_2018 {
+  position: absolute;
+  overflow: visible;
+  width: 532px;
+  left: 280px;
+  top: 7478px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.manBut_2018 {
+  border: 2px solid #707070;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.manBut_2018:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manBut_2018:hover {
+  border-color: #0216e1;
+  background: #0216e1;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+#radio1_2018:checked ~ .first {
+  margin-top: 0;
+}
+
+#radio2_2018:checked ~ .first {
+  margin-top: -375px;
+}
+
+#radio3_2018:checked ~ .first {
+  margin-top: -780px;
+}
+
+#radio4_2018:checked ~ .first {
+  margin-top: -1170px;
+}
+
+#radio5_2018:checked ~ .first {
+  margin-top: -1565px;
+}
+
+#radio6_2018:checked ~ .first {
+  margin-top: -1950px;
+}
+
+#radio7_2018:checked ~ .first {
+  margin-top: -2325px;
+}
+
+#radio8_2018:checked ~ .first {
+  margin-top: -2725px;
+}
+
+/********************************************/
+/******************** 2019 ******************/
+/********************************************/
+.slider_2019 {
+  position: absolute;
+  overflow: visible;
+}
+
+.slides_2019 {
+  overflow: hidden;
+  position: absolute;
+  width: 582px;
+  height: 442px;
+  left: 1036px;
+  top: 7634px;
+}
+
+.slides_2019 input {
+  display: none;
+}
+
+.slide_2019 {
+  width: 20%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.slide_2019 img {
+  width: 582px;
+  height: 440px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/* ----- CSS FOR MANUAL NAV ---------- */
+.navManual_2019 {
+  position: absolute;
+  overflow: visible;
+  width: 582px;
+  left: 1036px;
+  top: 8081px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.manBut_2019 {
+  border: 2px solid #707070;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.manBut_2019:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manBut_2019:hover {
+  border-color: #0216e1;
+  background: #0216e1;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+#radio1_2019:checked ~ .first {
+  margin-top: 0;
+}
+
+#radio2_2019:checked ~ .first {
+  margin-top: -440px;
+}
+
+#radio3_2019:checked ~ .first {
+  margin-top: -885px;
+}
+/*# sourceMappingURL=main.css.map */
