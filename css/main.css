@@ -50,7 +50,7 @@ img {
 .Desktop {
   position: absolute;
   width: 1920px;
-  height: 8968px;
+  height: 9811px;
   background-color: white;
   overflow: hidden;
 }
@@ -62,7 +62,7 @@ img {
   width: 2889px;
   height: 1245.068px;
   left: -484px;
-  top: 8709.932px;
+  top: 9603.932px;
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -1462,7 +1462,7 @@ img {
   width: 33.488px;
   height: 33.857px;
   left: 887.233px;
-  top: 8814.677px;
+  top: 9690.677px;
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -1472,7 +1472,7 @@ img {
   width: 30.519px;
   height: 30.519px;
   left: 944.48px;
-  top: 8815.24px;
+  top: 9693.24px;
   overflow: visible;
 }
 
@@ -1492,14 +1492,14 @@ img {
   width: 19.5px;
   height: 33px;
   left: 1001.985px;
-  top: 8814.5px;
+  top: 9689.5px;
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 #EmailAdress {
   left: 840px;
-  top: 8771px;
+  top: 9646px;
   position: absolute;
   overflow: visible;
   width: 241px;
@@ -1514,7 +1514,7 @@ img {
 
 #CopyrightText {
   left: 866px;
-  top: 8878px;
+  top: 9753px;
   position: absolute;
   overflow: visible;
   width: 190px;
@@ -2112,5 +2112,50 @@ img {
 
 #radio3_2019:checked ~ .first {
   margin-top: -885px;
+}
+
+/* -----------------------------------------------------------------------------------------------
+------------------------------------------ THANK YOU ---------------------------------------------
+-------------------------------------------------------------------------------------------------- */
+.Tank_You_Head {
+  left: 1037px;
+  top: 9045px;
+  position: absolute;
+  overflow: visible;
+  width: 631px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.Thank_You_Par {
+  left: 1041px;
+  top: 9115px;
+  position: absolute;
+  overflow: hidden;
+  width: 601px;
+  height: 102px;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #707070;
+}
+
+.Me {
+  border-radius: 1.5rem;
+  -webkit-filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.267));
+          filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.267));
+  position: absolute;
+  width: 485px;
+  height: 550px;
+  left: 325px;
+  top: 8890px;
+  overflow: visible;
 }
 /*# sourceMappingURL=main.css.map */
