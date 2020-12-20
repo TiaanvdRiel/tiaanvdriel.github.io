@@ -93,8 +93,6 @@ NavAbout.addEventListener("click", function(){
     smoothScroll(1240, 2600);
 });
 
-
-
 var  NavSkills = document.querySelector(".NavSkills");
 NavSkills.addEventListener("click", function(){
     smoothScroll(2240, 3200);
@@ -118,8 +116,12 @@ NavStory.addEventListener("click", function(){
 
 var  NavContact = document.querySelector(".NavContact");
 NavContact.addEventListener("click", function(){
-    smoothScroll(8000, 5600);
+    smoothScroll(9000, 5600);
 });
 
 
+var  GetInTouch = document.querySelector(".GetInTouch");
+GetInTouch.addEventListener("click", function(){
+    smoothScroll(9000, 5600);
+});
 
