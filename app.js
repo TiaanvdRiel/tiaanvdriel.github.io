@@ -7,6 +7,9 @@ document.addEventListener('mousemove', e => {
 })
 */
 
+if (screen.width <= 899) {
+document.location = "mobile.html";
+}
 
 const texts = ["Tiaan van der Riel ", "a programmer ", "a future developer "];
 let count = 0;
