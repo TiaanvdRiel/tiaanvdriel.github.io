@@ -60,7 +60,7 @@ img {
 /* MAIN MOBILE SHEET */
 .Mobile {
   position: absolute;
-  width: 375px;
+  width: 405px;
   height: 8715px;
   background-color: #f4f8fb;
   overflow: hidden;
@@ -73,7 +73,7 @@ img {
 .WhiteRectangle {
   position: absolute;
   overflow: visible;
-  width: 405px;
+  width: 375px;
   height: 7521px;
   left: 0px;
   top: 1501px;
