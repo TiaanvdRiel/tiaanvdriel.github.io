@@ -393,7 +393,7 @@ img {
 }
 
 #Nav_Skills {
-  left: 110px;
+  left: 16px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -409,7 +409,7 @@ img {
 }
 
 #Nav_MyStory {
-  left: 273px;
+  left: 279px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -425,7 +425,7 @@ img {
 }
 
 #Nav_Education {
-  left: 156px;
+  left: 154px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -441,7 +441,7 @@ img {
 }
 
 #Nav_About {
-  left: 74px;
+  left: 70px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -457,7 +457,7 @@ img {
 }
 
 #Nav_Home {
-  left: 39px;
+  left: 35px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -473,7 +473,7 @@ img {
 }
 
 #Nav_Contact {
-  left: 328px;
+  left: 332px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -489,7 +489,7 @@ img {
 }
 
 #Nav_Achievements {
-  left: 212px;
+  left: 210px;
   top: 10px;
   position: absolute;
   overflow: visible;
