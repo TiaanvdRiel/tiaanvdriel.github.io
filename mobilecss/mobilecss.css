@@ -393,7 +393,7 @@ img {
 }
 
 #Nav_Skills {
-  left: 16px;
+  left: 106px;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -742,7 +742,7 @@ img {
   top: 2535.5px;
   position: absolute;
   overflow: hidden;
-  width: 127px;
+  width: 140px;
   height: 17px;
   text-align: left;
   font-family: JetBrains Mono;
@@ -827,7 +827,7 @@ img {
 
 #Academic_SubHead {
   left: 166px;
-  top: 3234px;
+  top: 3220px;
   position: absolute;
   overflow: visible;
   width: 91px;
@@ -845,7 +845,7 @@ img {
   width: 31.721px;
   height: 31.457px;
   left: 191.961px;
-  top: 3197.478px;
+  top: 3180.478px;
   overflow: visible;
 }
 
@@ -922,12 +922,12 @@ img {
   width: 197.991px;
   height: 405.987px;
   left: 109px;
-  top: 3263.013px;
+  top: 3250.013px;
 }
 
 #Academic_Par {
   left: 140px;
-  top: 3281.5px;
+  top: 3268.5px;
   position: absolute;
   overflow: visible;
   width: 137px;
@@ -1246,7 +1246,7 @@ img {
   position: absolute;
   overflow: hidden;
   width: 230px;
-  height: 202px;
+  height: 222px;
   text-align: left;
   font-family: Open Sans;
   font-style: normal;
@@ -1265,12 +1265,12 @@ img {
   width: 271.991px;
   height: 282.987px;
   left: 72px;
-  top: 5788.013px;
+  top: 5778.013px;
 }
 
 #StoryText_2017 {
   left: 94px;
-  top: 5812px;
+  top: 5802px;
   position: absolute;
   overflow: visible;
   width: 230px;
@@ -1293,12 +1293,12 @@ img {
   width: 271.991px;
   height: 348.987px;
   left: 72px;
-  top: 6388.013px;
+  top: 6378.013px;
 }
 
 #StoryText_2018 {
   left: 94px;
-  top: 6411px;
+  top: 6401px;
   position: absolute;
   overflow: visible;
   width: 230px;
@@ -1326,7 +1326,7 @@ img {
 
 #StoryText_2019 {
   left: 93px;
-  top: 7060px;
+  top: 7040px;
   position: absolute;
   overflow: visible;
   width: 230px;
@@ -1354,7 +1354,7 @@ img {
 
 #StoryText_2020 {
   left: 93px;
-  top: 7639px;
+  top: 7634px;
   position: absolute;
   overflow: visible;
   width: 230px;
